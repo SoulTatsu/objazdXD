@@ -177,7 +177,10 @@ p {
 
 }
 
-.btn a:hover {}
+.btn a:hover {
+    padding: 20px 15px;
+    box-shadow: var(--shadow);
+}
 
 .girl {
     display: block;
