@@ -203,6 +203,17 @@ p {
     text-align: center;
 }
 
+.box-baner-buy {
+     font-size: 1.6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.price-buy {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 /*media quaries for content */
 
 @media only screen and (min-width: 940px) {
