@@ -6,43 +6,42 @@
 }
 
 html {
-     width: 100%;
     background-attachment: cover;
-    
-    
-    
-}
-body {
-    margin: 0; 
-    padding: 0; 
-    height: 100%;
     width: 100%;
-    display: static;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
 }
 
 img {
-    
+
     display: inline-block;
-    
+
 }
+
 p {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
-/*styles*/ 
 
-/*header */ 
+/*styles*/
+
+/*header */
 .header-section {
-    width: 100%; 
-     background: var(--primary);   
+    width: 100%;
+    background: var(--primary);
     display: block;
     box-shadow: var(--shadow);
 }
 
-.header-wrapper { 
+.header-wrapper {
     display: grid;
     justify-content: center;
-    
+
 }
 
 .header-wrapper #logo {
@@ -50,41 +49,45 @@ p {
     height: 150px;
     display: block;
     position: relative;
-       
+
 }
 
 .menu-wrapper {
     display: none;
 }
 
-/*media quaries for header */ 
+/*media quaries for header */
 @media only screen and (min-width: 940px) {
-.header-wrapper  {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-       
-}
+    .header-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
     #logo {
         padding-left: 30px;
         position: absolute;
-        
+
     }
-    .menu-wrapper{
+
+    .menu-wrapper {
         display: block;
         align-self: center;
-        justify-self: end; 
+        justify-self: end;
     }
+
     .menu-wrapper ul {
         padding: 0;
         margin: 0;
         text-transform: uppercase;
         list-style: none;
         display: flex;
-       /* grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr;
         text-align: center; */
-        
+
     }
+
     .menu-wrapper ul a {
         text-decoration: none;
         color: var(--black);
@@ -94,31 +97,31 @@ p {
         letter-spacing: 1px;
         white-space: nowrap;
     }
-  
+
 }
 
 
-/*content */ 
+/*content */
 
 .content {
-   
+
     margin: 0;
     width: 100%;
     padding-bottom: 30px;
-    
+
 }
 
 .section-wrapper {
-    padding-right: 128.0px; 
+    padding-right: 128.0px;
     padding-left: 128.0px;
     display: grid;
     grid-template-rows: 1fr;
     grid-gap: 40px;
     justify-content: center;
-    
+
 }
 
-/*menu responsywne */ 
+/*menu responsywne */
 
 .nrmenu-wrapper {
     padding-left: 128.0px;
@@ -136,7 +139,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     display: flex;
-    
+
 }
 
 .nrmenu a {
@@ -146,16 +149,18 @@ p {
     font-size: 2em;
     white-space: nowrap;
 }
-/*box section */ 
+
+/*box section */
 .btn {
     text-align: center;
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
-    
-   
-    
+
+
+
 }
+
 .btn a {
     text-decoration: none;
     text-transform: uppercase;
@@ -163,14 +168,12 @@ p {
     display: inline-block;
     background: var(--black);
     padding: 15px 10px;
-    white-space: nowrap ;
+    white-space: nowrap;
     border-radius: 3px;
-    
+
 }
-.btn a:hover {
-    
-    
-}
+
+.btn a:hover {}
 
 .girl {
     display: block;
@@ -180,59 +183,63 @@ p {
 .box-wrapper {
     display: grid;
     justify-content: center;
-    
-    
+
+
 }
+
 .box-wrapper .box-baner {
     font-size: 1.6rem;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
 }
+
 .box-wrapper .price {
     font-size: 1.5rem;
-        text-align: center;
+    text-align: center;
 }
 
-/*media quaries for content */ 
+/*media quaries for content */
 
 @media only screen and (min-width: 940px) {
-    
-    
+
+
     .section-wrapper {
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
         margin-top: 150px;
-        
+
     }
+
     .nrmenu-wrapper {
         display: none;
     }
-    
+
 }
 
-/*gallery page */ 
+/*gallery page */
 
 
- 
+
 .gallery-wrapper {
     width: 100%;
 }
+
 .gbox {
-    display: grid; 
-    grid-template-rows: 1fr; 
-    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+
 }
-.photo-up {
-    
-}
+
+.photo-up {}
+
 .photo-up img {
     max-width: 100%;
     display: block;
     height: 100vh;
     width: 100%;
-    
-    
+
+
 }
 
 
@@ -241,59 +248,58 @@ p {
     display: block;
     height: 100vh;
     width: 100%;
-    
+
 }
 
 .about-me {
     display: grid;
-    grid-template-rows: 1fr 0.5fr;
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 200px;
+    padding-right: 200px;
     max-width: 100%;
-    
-    
-    
+
+
+
 }
-/*button*/ 
+
+/*button*/
 .back-btn {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 .back-btn a {
-    font-size: 0.95em;
-    letter-spacing: 2px;
+    font-size: 0.8rem;
     text-decoration: none;
-    color: var(--black);
+    color: #413E3E;
     padding: 15px;
-    background: transparent; 
+    background: transparent;
     display: inline-block;
-   
-    text-transform: uppercase;
     white-space: nowrap;
 }
+
 .back-btn #back-arrow {
     width: 10px;
     margin-right: 10px;
 }
-/*text box */ 
+
+/*text box */
 .text-box {
     padding-top: 30px;
     display: grid;
     justify-content: center;
     width: 100%;
-   
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
 }
 
 .text-box .baner {
     padding-bottom: 30px;
-    font-size: 2em;
     display: grid;
     justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 0.7px;
-    
+    font-size: 1.7rem;
 }
+
 
 .text-box .text {
     display: flex;
@@ -301,7 +307,8 @@ p {
     text-align: center;
     line-height: 1.50;
 }
-/*media quarries for gallery */ 
+
+/*media quarries for gallery */
 
 @media only screen and (min-width: 950px) {
     .about-me {
@@ -312,58 +319,85 @@ p {
         margin-top: auto;
         margin-bottom: auto;
     }
-    
+
     .photo img {
         max-width: 100%;
-        
+
     }
-    
+
     .gbox {
         grid-template-columns: 1fr 1fr;
     }
+
     .about-me {
-        grid-template-columns:1fr;
-        
+        grid-template-columns: 1fr;
+
     }
-    .back-btn  {
+
+    .back-btn {
         padding-bottom: 40px;
-        
+
     }
+
     .photo-down {
         order: 2;
     }
-    
-    
+
+
 }
 
-/*contact & about us section */ 
+/*contact & about us section */
 .other-about {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding-left:200px;
+    padding-left: 200px;
     padding-right: 200px;
     max-width: 100%;
     padding: 0;
 }
+
 .photo-about {
     max-width: 100%;
     display: block;
-  
+
     width: 100%;
     padding-bottom: 0;
 }
-.text-box-about {
-    
-}
+
+.text-box-about {}
+
 .telephone {
     padding-top: 200px;
     text-align: center;
     font-size: 2.5em;
     white-space: nowrap;
-    
+
 }
 
+/* strzałki */
+i {
+    border: solid #413E3E;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
 
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
 
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
 
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
 
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
