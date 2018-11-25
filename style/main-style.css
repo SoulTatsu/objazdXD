@@ -209,14 +209,16 @@ p {
 }
 
 .box-baner-buy {
-     font-size: 1.6rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 1.6rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
+
 .price-buy {
     font-size: 1.5rem;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 /*media quaries for content */
