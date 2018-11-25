@@ -6,7 +6,8 @@
 }
 
 html {
-  height: 100%;
+     width: 100%;
+    background-attachment: cover;
     
     
     
@@ -15,7 +16,8 @@ body {
     margin: 0; 
     padding: 0; 
     height: 100%;
-    
+    width: 100%;
+    display: static;
 }
 
 img {
@@ -219,7 +221,7 @@ p {
 .gbox {
     display: grid; 
     grid-template-rows: 1fr; 
-    
+    width: 100%;
 }
 .photo-up {
     
@@ -244,9 +246,10 @@ p {
 
 .about-me {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    padding-left:200px;
-    padding-right: 200px;
+    grid-template-rows: 1fr 0.5fr;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 100%;
     
     
