@@ -198,3 +198,13 @@ i {
         font-size: 1rem;
     }
 }
+
+#parallax1 {
+    height: 70vh;
+    width: 100%;
+    background-image: url(o_nas_logo.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
