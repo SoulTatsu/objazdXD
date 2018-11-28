@@ -8,9 +8,7 @@
 html {
     width: 100%;
     background-attachment: cover;
-
-
-
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -45,7 +43,6 @@ p {
 .header-wrapper {
     display: grid;
     justify-content: center;
-
 }
 
 .header-wrapper #logo {
@@ -58,6 +55,10 @@ p {
 
 .menu-wrapper {
     display: none;
+}
+
+.menu-wrapper a:hover {
+    color: var(--grey);
 }
 
 /*media quaries for header */
@@ -161,8 +162,6 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 
-
-
 }
 
 .btn a {
@@ -174,7 +173,7 @@ p {
     padding: 15px 10px;
     white-space: nowrap;
     border-radius: 3px;
-
+    transition: 0.5s;
 }
 
 .btn a:hover {
@@ -204,7 +203,7 @@ p {
 }
 
 .box-wrapper .price {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -216,6 +215,7 @@ p {
 }
 
 .price-buy {
+    color: var(--grey);
     font-size: 1.5rem;
     text-align: center;
     padding-bottom: 10px;

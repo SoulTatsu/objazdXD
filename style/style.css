@@ -108,7 +108,7 @@ img {
 
 .price {
     color: var(--grey);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -179,6 +179,11 @@ i {
     padding-top: 10%;
 }
 
+#social_media #social:hover {
+    width: 70px;
+    height: 70px;
+}
+
 #social {
     width: 65px;
     height: 65px;
@@ -198,4 +203,3 @@ i {
         font-size: 1rem;
     }
 }
-
