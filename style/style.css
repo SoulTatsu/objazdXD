@@ -203,3 +203,23 @@ i {
         font-size: 1rem;
     }
 }
+
+p {
+    text-align: center;
+}
+
+.form {
+    background-color: var(--primary);
+}
+
+.form-back {
+    padding-top: 2rem;
+    padding-left: 4rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+a .form-back {
+    text-decoration: none;
+    color: var(--grey);
+}
